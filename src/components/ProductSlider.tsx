@@ -77,7 +77,7 @@ const ProductSlider = () => {
       <div className="relative md:w-[850px]">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           {/* 이미지 영역: 고정 크기 */}
-          <div className="relative w-full h-[400px]">
+          <div className="relative w-full h-[300px] md:h-[400px]">
             <Image
               src={currentProduct.image}
               alt={currentProduct.name}
