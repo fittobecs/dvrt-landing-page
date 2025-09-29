@@ -1,10 +1,10 @@
 export const siteDetails = {
-  siteName: "FMS",
+  siteName: "DVRT",
   siteUrl: "https://finwise-omega.vercel.app/",
   metadata: {
-    title: "FMS",
+    title: "DVRT",
     description:
-      "Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.",
+      "DVRT는 정적이지 않은 웨이트를 사용하는 기능성 트레이닝으로 역동적이고 다양성이 넘치는 저항 훈련 시스템입니다.",
   },
   language: "ko-kr",
   locale: "ko-KR",

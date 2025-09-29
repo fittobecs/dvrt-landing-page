@@ -23,10 +23,10 @@ const Header: React.FC = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/images/FMS_systems_logo.png"
+              src="/images/dvrt-logo.png"
               alt="fms system logo"
-              width={100}
-              height={100}
+              width={130}
+              height={130}
             />
           </Link>
 
@@ -44,11 +44,11 @@ const Header: React.FC = () => {
             ))}
             <li>
               <a
-                href="https://www.fittobe.ac/main/page.jsp?code=test_12121&ln=FMS_main"
+                href="https://www.fittobe.ac/course/course_list.jsp?cid=113696"
                 target="_blank"
                 className="text-black bg-white border-4 border-red-600 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
               >
-                FMS 신청
+                DVRT 신청
               </a>
             </li>
           </ul>
@@ -101,12 +101,12 @@ const Header: React.FC = () => {
             ))}
             <li>
               <a
-                href="https://www.fittobe.ac/main/page.jsp?code=test_12121&ln=FMS_main"
+                href="https://www.fittobe.ac/course/course_list.jsp?cid=113696"
                 target="_blank"
                 className="text-black bg-white border-4 border-red-600 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
                 onClick={toggleMenu}
               >
-                FMS 신청
+                DVRT 신청
               </a>
             </li>
           </ul>

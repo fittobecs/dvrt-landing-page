@@ -1,7 +1,7 @@
 export const ctaDetails = {
-  heading: "FMS 7가지 자격증을 멤버십으로 한 번에!",
+  heading: "교정 운동부터 스트렝스 트레이닝까지",
   subheading:
-    "연회비 구독으로 7가지 자격증 과정 및 보강 강좌 수강은 물론 다양한 서비스와 오프라인 이벤트 참가까지",
+    "재활, 교정의 RESTORATION부터 스트렝스 트레이닝인 DVRT L1, L2 평셔널 트레이닝의 진수를 맛보세요",
   appStoreUrl: "#",
   googlePlayUrl: "#",
 }

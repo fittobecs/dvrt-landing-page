@@ -5,7 +5,7 @@ import { ctaDetails } from "@/data/cta"
 const CTA: React.FC = () => {
   const handlePaymentClick = () => {
     window.open(
-      "https://www.fittobe.ac/course/course_view.jsp?id=174227&cid=116081#course-view-174227",
+      "https://www.fittobe.ac/course/course_list.jsp?cid=113696",
       "_blank",
       "noopener,noreferrer"
     )
@@ -13,7 +13,7 @@ const CTA: React.FC = () => {
 
   const handleDetailsClick = () => {
     window.open(
-      "https://www.fittobe.ac/main/page.jsp?code=test_12121&ln=FMS_main",
+      "https://www.fittobe.ac/product/product_list.jsp?cid=113703",
       "_blank",
       "noopener,noreferrer"
     )
@@ -41,7 +41,7 @@ const CTA: React.FC = () => {
   font-medium rounded-full text-base px-5 py-2.5 text-center me-2 mb-2 dark:bg-white dark:hover:bg-gray-200"
                 onClick={handlePaymentClick}
               >
-                FMS 결제하기
+                강의 신청하기
               </button>
               <button
                 type="button"
@@ -49,7 +49,7 @@ const CTA: React.FC = () => {
   font-medium rounded-full text-base px-5 py-2.5 text-center me-2 mb-2 dark:bg-white dark:hover:bg-gray-200 "
                 onClick={handleDetailsClick}
               >
-                상세 페이지
+                장비 보러가기
               </button>
             </div>
           </div>

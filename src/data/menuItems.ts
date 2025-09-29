@@ -6,11 +6,11 @@ export const menuItems: IMenuItem[] = [
     url: "#features",
   },
   {
-    text: "가격",
-    url: "#pricing",
+    text: "과정",
+    url: "#culriculum1",
   },
   {
-    text: "사용사례",
-    url: "#usage-case",
+    text: "장비",
+    url: "#products",
   },
 ]

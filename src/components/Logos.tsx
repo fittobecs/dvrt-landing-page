@@ -11,11 +11,9 @@ const Logos: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const courses: Course[] = [
-    { id: "fms-l1", title: "FMS L1" },
-    { id: "fms-l2", title: "FMS L2" },
-    { id: "sfma-l1", title: "SFMA L1" },
-    { id: "breathing", title: "BREATHING" },
-    { id: "ybt", title: "YBT" },
+    { id: "DVRT L1", title: "DVRT L1" },
+    { id: "DVRT L2", title: "DVRT L2" },
+    { id: "DVRT RESTORATION", title: "DVRT RESTORATION" },
   ]
 
   const handlePrevious = () => {
@@ -74,7 +72,7 @@ const Logos: React.FC = () => {
         {/* Title */}
         <div className="text-center mb-8">
           <h2 className="text-2xl font-medium text-gray-700 tracking-wide">
-            FMS 사 교육 과정
+            DVRT 교육 과정
           </h2>
         </div>
 
