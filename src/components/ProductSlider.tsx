@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { useState } from "react"
 
 const products = [
@@ -77,21 +78,22 @@ const ProductSlider = () => {
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           {/* 이미지 영역: 고정 크기 */}
           <div className="relative w-full h-[400px]">
-            <img
+            <Image
               src={currentProduct.image}
               alt={currentProduct.name}
+              fill
               className="w-full h-full object-contain"
             />
             {/* 좌우 화살표 버튼 */}
             <button
               onClick={goToPrevious}
-              className="absolute left-4 top-1/1 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-70 transition sm:p-2"
+              className="absolute left-4 top-[100%] transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-70 transition sm:p-2"
             >
               ←
             </button>
             <button
               onClick={goToNext}
-              className="absolute right-4 top-1/1 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-70 transition sm:p-2"
+              className="absolute right-4 top-[100%] transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-70 transition sm:p-2"
             >
               →
             </button>
