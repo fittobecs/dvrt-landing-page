@@ -17,7 +17,7 @@ const DVRTInfo3: React.FC = () => {
               스트렝스에 치중 된 프로그램. 불안정하다는 특징을 가진 얼티밋
               샌드백을 활용하여 근력을 키우고 효율적으로 동작의 퀄리티를 향상
             </p>
-            <ul className="text-left text-lg text-gray-500 leading-loose list-disc list-inside">
+            <ul className="text-left text-sm text-gray-500 leading-loose list-disc list-inside">
               <li>힌지, 프레스, 런지, 스쿼트, 크로스 등 핵심 패턴</li>
               <li>트레이너, 스트렝스 코치들 대상</li>
               <li>얼티밋 샌드백 활용</li>
@@ -45,11 +45,13 @@ const DVRTInfo3: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 pt-4">
-          <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
-            움직임의 기준을 다지고 기본적인 근력을 구축하는데 중점을 두는 과정.
-          </h1>
           <div className="flex justify-center items-center w-full">
-            <div className="w-[60%] border-t-2 border-gray-500 py-2 mb-4"></div>
+            <div className="w-fit border-b-2 border-gray-500 py-2 mb-4">
+              <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
+                움직임의 기준을 다지고 기본적인 근력을 구축하는데 중점을 두는
+                과정.
+              </h1>
+            </div>
           </div>
 
           <div className="py-2 mb-2">

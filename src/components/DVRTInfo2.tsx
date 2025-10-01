@@ -4,10 +4,7 @@ import React from "react"
 
 const FMSInfo2: React.FC = () => {
   return (
-    <section
-      className="w-full py-12"
-      style={{ backgroundColor: "rgb(239, 239, 239)" }}
-    >
+    <section className="w-full py-12">
       {/* 상단 수평선 */}
       <div className="mt-8 px-4">
         <hr className="border-2 border-gray-800 w-3/4 mx-auto" />
@@ -90,7 +87,7 @@ const FMSInfo2: React.FC = () => {
           <a
             href="https://www.fittobe.ac/course/course_list.jsp?cid=117226&"
             target="_blank"
-            className="text-black font-semibold bg-[rgb(239, 239, 239)] border-4 border-gray-800 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
+            className="text-black font-semibold border-4 border-gray-800 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
           >
             오프라인 일정 확인하기
           </a>

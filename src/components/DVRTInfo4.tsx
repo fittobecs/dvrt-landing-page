@@ -45,16 +45,13 @@ const DVRTInfo4: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 pt-4">
-          <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
-            Level 1의 기초를 바탕으로 더 복잡하고 실제적인 움직임 패턴을 훈련.
-          </h1>
           <div className="flex justify-center items-center w-full">
-            <p className="text-xl text-gray-700">
-              (특히, 측면 강도와 파워를 심화하는 과정이다.)
-            </p>
-          </div>
-          <div className="flex justify-center items-center w-full">
-            <div className="w-[60%] border-t-2 border-gray-500 py-2 mb-4"></div>
+            <div className="w-fit border-b-2 border-gray-500 py-2 mb-4">
+              <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
+                Level 1의 기초를 바탕으로 더 복잡하고 실제적인 움직임 패턴을
+                훈련.
+              </h1>
+            </div>
           </div>
 
           <div className="py-2 mb-2">

@@ -45,16 +45,12 @@ const DVRTInfo5: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 pt-4">
-          <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
-            통증을 줄이고 운동 능력을 향상시키는 기능적 훈련 시스템.
-          </h1>
           <div className="flex justify-center items-center w-full">
-            <p className="text-xl text-gray-700">
-              (인간의 자연스러운 움직임 패턴을 회복하고 효율성을 극대화한다.)
-            </p>
-          </div>
-          <div className="flex justify-center items-center w-full">
-            <div className="w-[60%] border-t-2 border-gray-500 py-2 mb-4"></div>
+            <div className="w-fit border-b-2 border-gray-500 py-2 mb-4">
+              <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
+                통증을 줄이고 운동 능력을 향상시키는 기능적 훈련 시스템.
+              </h1>
+            </div>
           </div>
 
           <div className="py-2 mb-2">
@@ -83,7 +79,7 @@ const DVRTInfo5: React.FC = () => {
           <a
             href="https://www.fittobe.ac/course/course_list.jsp?cid=117226&"
             target="_blank"
-            className="text-black font-semibold bg-[rgb(239, 239, 239)] border-4 border-gray-800 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
+            className="text-black font-semibold border-4 border-gray-800 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
           >
             오프라인 일정 확인하기
           </a>
