@@ -14,8 +14,8 @@ const DVRTInfo5: React.FC = () => {
               DVRT RESTORATION
             </h2>
             <p className="text-left text-lg md:text-xl font-semibold text-gray-800 mb-4 leading-tight">
-              신체 기능 회복 및 재활 프로그램. 전 연령 사용 가능 강의. 부상
-              부위와 정도에 따라 맞춤 적용 가능한 무게 활용 재활, 교정 강의
+              신체 기능 회복 및 재활 프로그램. <br />전 연령 사용 가능 강의.
+              부상 부위와 정도에 따라 맞춤 적용 가능한 무게 활용 재활, 교정 강의
             </p>
             <ul className="text-left  text-gray-500 leading-loose list-disc list-inside">
               <li>움직임 패턴 교정 리커버리 중심의 강의</li>
@@ -36,17 +36,16 @@ const DVRTInfo5: React.FC = () => {
           <div className="flex-[6]">
             <Image
               src="/images/dvrt_girl_1.jpg"
-              width={900}
+              width={1300}
               height={900}
               alt="icons"
-              style={{ width: "100%", height: "auto" }}
-              className="object-contain"
+              className="object-fill"
             />
           </div>
         </div>
         <div className="mt-8 pt-4">
           <div className="flex justify-center items-center w-full">
-            <div className="w-fit border-b-2 border-gray-500 py-2 mb-4">
+            <div className="w-fit py-2 mb-4">
               <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
                 통증을 줄이고 운동 능력을 향상시키는 기능적 훈련 시스템.
               </h1>

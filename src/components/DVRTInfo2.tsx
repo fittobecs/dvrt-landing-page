@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import React from "react"
 
 const FMSInfo2: React.FC = () => {
@@ -22,17 +23,17 @@ const FMSInfo2: React.FC = () => {
             className="flex flex-col items-center"
             style={{ backgroundColor: "rgb(202, 202, 202)" }}
           >
-            <img
-              src="/images/dvrt_course_1.jpg"
-              alt="Course 1"
-              className="mb-4"
-            />
+            <div className="w-full aspect-video mb-4">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/mSddwITksLA"
+                title="DVRT L1"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
             <h2 className="text-xl font-bold text-center">DVRT L1</h2>
             <div className="p-4">
-              <p>
-                내용 : 힌지, 프레스, 런지, 스쿼트, 크로스 등 5가지 핵심 패턴
-                컨셉
-              </p>
               <p className="mt-2">
                 대상: 트레이너, 스트렝스 코치(ACE, NASM CPT CEU)
               </p>
@@ -43,17 +44,18 @@ const FMSInfo2: React.FC = () => {
           </div>
           {/* 컴포넌트 2 */}
           <div
-            className="flex flex-col items-center"
+            className="flex flex-col items-center relative"
             style={{ backgroundColor: "rgb(225, 225, 225)" }}
           >
-            <img
+            <Image
               src="/images/explain_dvrt_1.jpg"
               alt="Course 1"
-              className="mb-4"
+              className="mb-4 md:h-[12rem] md:max-h-[186px] object-fill"
+              width={653}
+              height={368}
             />
             <h2 className="text-xl font-bold text-center">DVRT L2</h2>
             <div className="p-4">
-              <p>내용 : 복잡한 실제 움직임 패턴의 스트렝스와 파워 향상 중점</p>
               <p className="mt-2">
                 대상 : DVRT 레벨 1을 수료한 상급 트레이너(ACE/NASM CPT CEU)
               </p>
@@ -67,14 +69,17 @@ const FMSInfo2: React.FC = () => {
             className="flex flex-col items-center"
             style={{ backgroundColor: "rgb(202, 202, 202)" }}
           >
-            <img
-              src="/images/dvrt_girl_1.jpg"
-              alt="Course 1"
-              className="mb-4"
-            />
+            <div className="w-full aspect-video mb-4">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/7QKEp0gjbvM"
+                title="DVRT L1"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
             <h2 className="text-xl font-bold text-center">DVRT RESTORATION</h2>
             <div className="p-4">
-              <p>내용 : 움직임 패턴 교정 리커버리 중심</p>
               <p className="mt-4">대상 : 재활 및 교정 트레이너, 물리치료사</p>
               <p className="mt-4">
                 도구 : 가볍지만 자각을 유도하는데 도움이 되는 얼티밋 샌드백 코어

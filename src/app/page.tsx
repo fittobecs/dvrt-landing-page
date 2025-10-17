@@ -6,6 +6,7 @@ import DVRTInfo3 from "@/components/DVRTInfo3"
 import DVRTInfo4 from "@/components/DVRTInfo4"
 import DVRTInfo5 from "@/components/DVRTInfo5"
 import DVRTInfo6 from "@/components/DVRTInfo6"
+import DVRTInfo_certificate from "@/components/DVRTInfo_certificate"
 import Hero from "@/components/Hero"
 import Logos from "@/components/Logos"
 import Section from "@/components/Section"
@@ -27,6 +28,7 @@ const HomePage: React.FC = () => {
         <Section id="culriculum3" title="DVRT RESTORATION" description="">
           <DVRTInfo5 />
         </Section>
+        <DVRTInfo_certificate />
         <DVRTInfo6 />
         <CTA />
       </Container>

@@ -9,15 +9,17 @@ const DVRTInfo3: React.FC = () => {
           style={{ backgroundColor: "rgb(202, 202, 202)" }}
         >
           {/* 텍스트 영역 */}
-          <div className="flex-[3] text-center mr-8 pl-5">
+          <div className="flex-[4] text-center mr-8 pl-5">
             <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 leading-tight">
               DVRT L1
             </h2>
             <p className="text-left text-lg md:text-xl font-semibold text-gray-800 mb-4 leading-tight">
-              스트렝스에 치중 된 프로그램. 불안정하다는 특징을 가진 얼티밋
-              샌드백을 활용하여 근력을 키우고 효율적으로 동작의 퀄리티를 향상
+              스트렝스에 치중 된 프로그램. <br />
+              불안정성 학습에 필요한 얼티밋 샌드백으로
+              <br />
+              근력을 키우고 효율적으로 동작의 퀄리티를 향상.
             </p>
-            <ul className="text-left text-sm text-gray-500 leading-loose list-disc list-inside">
+            <ul className="text-left text-lg text-gray-500 leading-loose list-disc list-inside">
               <li>힌지, 프레스, 런지, 스쿼트, 크로스 등 핵심 패턴</li>
               <li>트레이너, 스트렝스 코치들 대상</li>
               <li>얼티밋 샌드백 활용</li>
@@ -33,20 +35,19 @@ const DVRTInfo3: React.FC = () => {
             </div>
           </div>
           {/* 이미지 영역 */}
-          <div className="flex-[7]">
+          <div className="flex-[6]">
             <Image
               src="/images/dvrt_course_1.jpg"
-              width={900}
+              width={1300}
               height={900}
               alt="icons"
-              style={{ width: "100%", height: "auto" }}
               className="object-contain"
             />
           </div>
         </div>
         <div className="mt-8 pt-4">
           <div className="flex justify-center items-center w-full">
-            <div className="w-fit border-b-2 border-gray-500 py-2 mb-4">
+            <div className="w-fit py-2 mb-4">
               <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
                 움직임의 기준을 다지고 기본적인 근력을 구축하는데 중점을 두는
                 과정.

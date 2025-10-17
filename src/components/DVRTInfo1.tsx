@@ -5,15 +5,12 @@ const DBRTInfo1: React.FC = () => {
         {/* Main Title */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
-            샌드백 펑셔널 트레이닝
-          </h1>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
-            DVRT
+            샌드백 펑셔널 트레이닝 DVRT
           </h1>
           <h2 className="text-1xl md:text-2xl font-bold text-gray-800 mb-8 leading-tight">
             불안정성이 안정성을 만듭니다.
           </h2>
-          <h2 className="text-2xl font-bold text-gray-700 max-w-2xl mx-auto underline">
+          <h2 className="text-2xl font-bold text-gray-700 max-w-2xl mx-auto">
             DVRT (Dynamic Variable Resistance Training) 시스템
           </h2>
         </div>
@@ -31,7 +28,7 @@ const DBRTInfo1: React.FC = () => {
               효과적으로 동작의 퀄리티를 향상시키는 시스템의 기본 원칙을
               배웁니다.
             </p>
-            <h2 className="text-2xl font-bold text-gray-700 leading-relaxed m-8">
+            <h2 className="text-2xl font-bold text-gray-700 leading-relaxed m-8 mt-14">
               DVRT의 4가지 원칙
             </h2>
             <ol className="text-lg text-left text-gray-700 leading-loose">

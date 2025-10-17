@@ -9,24 +9,24 @@ const DVRTInfo4: React.FC = () => {
           style={{ backgroundColor: "rgb(202, 202, 202)" }}
         >
           {/* 이미지 영역 */}
-          <div className="flex-[7]">
+          <div className="flex-[6]">
             <Image
               src="/images/dvrt_gray_man.jpg"
               width={1300}
               height={900}
               alt="icons"
-              style={{ width: "100%", height: "auto" }}
-              className="object-cover"
+              className="object-fill"
             />
           </div>
           {/* 텍스트 영역 */}
-          <div className="flex-[3] text-center mr-8 pl-4">
+          <div className="flex-[4] text-center mr-8 pl-4">
             <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 leading-tight">
               DVRT L2
             </h2>
             <p className="text-left text-lg md:text-xl font-semibold text-gray-800 mb-4 leading-tight">
-              L1의 심화 강의. 스트렝스 향상 프로그램. 근육 증가와 신체의 균형
-              잡힌 강화. 불균형을 잡고 몸의 밸런스와 근력을 함께 향상
+              L1의 심화 강의. 스트렝스 향상 프로그램.
+              <br /> 근육 증가와 신체의 균형 잡힌 강화. <br />
+              불균형을 잡고 몸의 밸런스와 근력을 함께 향상
             </p>
             <ul className="text-left text-lg text-gray-500 leading-loose list-disc list-inside">
               <li>리커버리, 움직임 패턴 교정 강의</li>
@@ -46,7 +46,7 @@ const DVRTInfo4: React.FC = () => {
         </div>
         <div className="mt-8 pt-4">
           <div className="flex justify-center items-center w-full">
-            <div className="w-fit border-b-2 border-gray-500 py-2 mb-4">
+            <div className="w-fit py-2 mb-4">
               <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
                 Level 1의 기초를 바탕으로 더 복잡하고 실제적인 움직임 패턴을
                 훈련.
