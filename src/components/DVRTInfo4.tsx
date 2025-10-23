@@ -24,9 +24,9 @@ const DVRTInfo4: React.FC = () => {
               DVRT L2
             </h2>
             <p className="text-left text-lg md:text-xl font-semibold text-gray-800 mb-4 leading-tight">
-              L1의 심화 강의. 스트렝스 향상 프로그램.
-              <br /> 근육 증가와 신체의 균형 잡힌 강화. <br />
-              불균형을 잡고 몸의 밸런스와 근력을 함께 향상
+              L1의 심화 강의로 움직임 고도화 프로그램.
+              <br /> 근육 증가와 신체의 균형 잡힌 강화를 주며, <br />
+              불균형을 잡고 몸의 밸런스와 근력을 함께 향상.
             </p>
             <ul className="text-left text-lg text-gray-500 leading-loose list-disc list-inside">
               <li>리커버리, 움직임 패턴 교정 강의</li>
@@ -49,28 +49,42 @@ const DVRTInfo4: React.FC = () => {
             <div className="w-fit py-2 mb-4">
               <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
                 Level 1의 기초를 바탕으로 더 복잡하고 실제적인 움직임 패턴을
-                훈련.
+                훈련
               </h1>
             </div>
           </div>
 
-          <div className="py-2 mb-2">
+          <div className="py-2 mb-8">
+            <h3 className="mb-6">
+              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+                기능적 움직임 심화
+              </span>
+            </h3>
             <p className="text-xl text-gray-700">
-              기능적 측면 강도 심화 : 숄더 스쿼트, 레그 스레딩, 아크 프레스,
-              셔킹 등 측면 움직임에 대한 저항 및 움직임 능력을 고도화한다.
+              숄더 스쿼트, 레그 스레딩, 아크 프레스, 셔킹 등 측면 움직임에 대한
+              저항 및 움직임 능력을 고도화한다.
             </p>
           </div>
-          <div className="py-2 mb-2">
+          <div className="py-2 mb-8">
+            <h3 className="mb-6">
+              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+                멀티플래너 움직임 훈련
+              </span>
+            </h3>
             <p className="text-xl text-gray-700">
-              멀티플래너 움직임 훈련 : 힙 힌지 매트릭스, 런지 매트릭스, 스내치
-              매트릭스 등 다양한 방향과 면에서 움직임을 제어하는 능력을 키운다.
+              힙 힌지 매트릭스, 런지 매트릭스, 스내치 매트릭스 등 다양한 방향과
+              면에서 움직임을 제어하는 능력을 키운다.
             </p>
           </div>
-          <div className="py-2 mb-2">
+          <div className="py-2 mb-8">
+            <h3 className="mb-6">
+              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+                파워 및 로코모션 훈련
+              </span>
+            </h3>
             <p className="text-xl text-gray-700">
-              파워 및 로코모션 훈련 : 클린, 하이 풀, 스내치, 캐리 등 폭발적인
-              힘을 생성하고 흡수하며, 실제 생활과 스포츠에 적용 가능한 고급
-              로코모셤 능력을 발전시킨다.
+              클린, 하이 풀, 스내치, 캐리 등 폭발적인 힘을 생성하고 흡수하며,
+              실제 생활과 스포츠에 적용 가능한 고급 로코모션 능력을 발전시킨다.
             </p>
           </div>
         </div>

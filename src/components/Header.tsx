@@ -46,7 +46,7 @@ const Header: React.FC = () => {
               <a
                 href="https://www.fittobe.ac/course/course_list.jsp?cid=113696"
                 target="_blank"
-                className="text-black bg-white border-4 border-red-600 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
+                className="text-white font-bold bg-[rgb(88,88,88)] border-4 border-red-600 hover:bg-gray-500 px-8 py-3 rounded-full transition-colors"
               >
                 DVRT 신청
               </a>
@@ -103,7 +103,7 @@ const Header: React.FC = () => {
               <a
                 href="https://www.fittobe.ac/course/course_list.jsp?cid=113696"
                 target="_blank"
-                className="text-black bg-white border-4 border-red-600 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
+                className="text-white font-bold bg-[rgb(88,88,88)] border-4 border-red-600 hover:bg-gray-500 px-8 py-3 rounded-full transition-colors"
                 onClick={toggleMenu}
               >
                 DVRT 신청

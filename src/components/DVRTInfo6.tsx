@@ -19,12 +19,8 @@ const DVRTInfo6: React.FC = () => {
           className="object-contain mt-5"
         />
         <h2 className="mt-8 text-3xl font-bold text-gray-800 mb-4 leading-tight">
-          ❓얼티밋 샌드백
+          얼티밋 샌드백
         </h2>
-        <p className="text-xl mb:text-2xl text-gray-700 mb-4">
-          DVRT의 기본 컨셉을 케틀벨, 덤벨 등 다양한 타입의 트레이닝 툴에 응용
-          가능
-        </p>
         <div className="py-2 mb-2 w-[80%]">
           <p className="text-xl mb:text-2xl text-gray-700 text-center">
             수많은 툴 중에서도 시스템 개발자인 조쉬 헨킨이 시스템 개발과 동시에

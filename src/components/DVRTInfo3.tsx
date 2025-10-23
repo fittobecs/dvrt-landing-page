@@ -14,10 +14,10 @@ const DVRTInfo3: React.FC = () => {
               DVRT L1
             </h2>
             <p className="text-left text-lg md:text-xl font-semibold text-gray-800 mb-4 leading-tight">
-              스트렝스에 치중 된 프로그램. <br />
+              DVRT의 가장 기본적인 프로그램 <br />
               불안정성 학습에 필요한 얼티밋 샌드백으로
               <br />
-              근력을 키우고 효율적으로 동작의 퀄리티를 향상.
+              근력 증가와 동작 퀄리티를 효율적으로 향상.
             </p>
             <ul className="text-left text-lg text-gray-500 leading-loose list-disc list-inside">
               <li>힌지, 프레스, 런지, 스쿼트, 크로스 등 핵심 패턴</li>
@@ -50,28 +50,42 @@ const DVRTInfo3: React.FC = () => {
             <div className="w-fit py-2 mb-4">
               <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">
                 움직임의 기준을 다지고 기본적인 근력을 구축하는데 중점을 두는
-                과정.
+                과정
               </h1>
             </div>
           </div>
 
-          <div className="py-2 mb-2">
+          <div className="py-2 mb-8">
+            <h3 className="mb-6">
+              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+                기초 움직임 패턴 숙달
+              </span>
+            </h3>
             <p className="text-xl text-gray-700">
-              기초 움직임 패턴 숙달 : 스쿼트, 힙 힌지, 푸시, 풀, 로테이션 등
-              기본적인 인간의 움직임 패턴을 올바르게 수행하는 데 집중한다.
+              스쿼트, 힙 힌지, 푸시, 풀, 로테이션 등 기본적인 인간의 움직임
+              패턴을 올바르게 수행하는 데 집중한다.
             </p>
           </div>
-          <div className="py-2 mb-2">
+          <div className="py-2 mb-8">
+            <h3 className="mb-6">
+              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+                안정성 및 가동성 기반 다지기
+              </span>
+            </h3>
             <p className="text-xl text-gray-700">
-              안정성 및 가동성 기반 다지기 : 움직임의 안정성과 필요한 가동성을
-              확보하여 부상 위험을 줄이고 효율적인 움직임을 가능하게 한다.
+              움직임의 안정성과 필요한 가동성을 확보하여 부상 위험을 줄이고
+              효율적인 움직임을 가능하게 한다.
             </p>
           </div>
-          <div className="py-2 mb-2">
+          <div className="py-2 mb-8">
+            <h3 className="mb-6">
+              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+                얼티밋 샌드백 활용의 기본
+              </span>
+            </h3>
             <p className="text-xl text-gray-700">
-              얼티밋 샌드백 활용의 기본 : 얼티밋 샌드백(Ultimate Sandbag)이라는
-              도구를 사용하여 다양한 홀딩 포지션과 기본적인 운동 적용법을
-              배웁니다.
+              얼티밋 샌드백(Ultimate Sandbag)이라는 도구를 사용하여 다양한 홀딩
+              포지션과 기본적인 운동 적용법을 배웁니다.
             </p>
           </div>
         </div>

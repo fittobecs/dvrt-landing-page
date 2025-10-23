@@ -24,28 +24,38 @@ const DBRTInfo1: React.FC = () => {
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               얼티밋 샌드백이라는 독특한 부하를 사용하여 부하 포지션, 신체
-              포지션, 부하 자체 등 DVRT 특유의 안정성 변수를 다루는 것으로
+              포지션, 부하 자체 등 DVRT는 특유의 안정성 변수를 다루는 것을 통해
               효과적으로 동작의 퀄리티를 향상시키는 시스템의 기본 원칙을
               배웁니다.
             </p>
-            <h2 className="text-2xl font-bold text-gray-700 leading-relaxed m-8 mt-14">
-              DVRT의 4가지 원칙
-            </h2>
-            <ol className="text-lg text-left text-gray-700 leading-loose">
-              <li>1. 특정 근육을 훈련하는 것이 아니라 움직임 자체를 훈련</li>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              기본 원칙에는 4가지가 있습니다.
+            </p>
+            <ol className="text-lg text-center text-gray-700 leading-loose">
               <li>
-                2. 신체의 위치, 부하 홀딩 방법을 여러 단계로 변화시켜 보다
-                버라이어티한 점진적인 과부하를 제공
+                첫 번째, 특정 근육을 훈련하는 것이 아니라 움직임 자체를
+                훈련합니다.
               </li>
               <li>
-                3. DVRT 시스템은 움직임의 단순성과 복잡성이 공존하는 이상적인
-                점진적인 프로세스를 제공
+                두 번째, 신체의 위치, 부하 홀딩 방법을 여러 단계로 변화시켜 보다
+                버라이어티한 점진적인 과부하를 제공합니다.
               </li>
               <li>
-                4. DVRT 시스템은 각 개인이 목표나 능력 레벨에 따라 유연하게 변화
-                대응 시킬 수 있음
+                세 번째, DVRT 시스템은 움직임의 단순성과 복잡성이 공존하는
+                이상적인 점진적인 프로세스를 제공합니다.
+              </li>
+              <li>
+                네 번째, DVRT 시스템은 각 개인이 목표나 능력 레벨에 따라
+                유연하게 변화 대응 시킬 수 있습니다.
               </li>
             </ol>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              이때, DVRT는 얼티밋 샌드백이라는 독특한 불안정성을 주는 부하 툴을
+              사용합니다. 수 많은 툴 중 시스템 개발자인 조쉬 헨킨이 시스템
+              개발과 동시에 개발 및 개선을 지속해 온 가장 적합한 툴인 얼티밋
+              샌드백(USB)를 활용하여 역동적이고 다양성이 넘치는 저항 훈련
+              시스템을 진행합니다.
+            </p>
           </div>
         </div>
       </div>
