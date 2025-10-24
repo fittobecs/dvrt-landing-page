@@ -9,7 +9,7 @@ const DVRTInfo4: React.FC = () => {
           style={{ backgroundColor: "rgb(202, 202, 202)" }}
         >
           {/* 이미지 영역 */}
-          <div className="flex-[6]">
+          <div className="flex-[6] max-[767px]:mb-5">
             <Image
               src="/images/dvrt_gray_man.jpg"
               width={1300}

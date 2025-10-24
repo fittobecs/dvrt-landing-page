@@ -8,6 +8,15 @@ const DVRTInfo3: React.FC = () => {
           className="flex flex-col md:flex-row items-center"
           style={{ backgroundColor: "rgb(202, 202, 202)" }}
         >
+          <div className="md:hidden mb-5">
+            <Image
+              src="/images/dvrt_course_1.jpg"
+              width={1300}
+              height={900}
+              alt="icons"
+              className="object-contain"
+            />
+          </div>
           {/* 텍스트 영역 */}
           <div className="flex-[4] text-center mr-8 pl-5">
             <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 leading-tight">
@@ -35,7 +44,7 @@ const DVRTInfo3: React.FC = () => {
             </div>
           </div>
           {/* 이미지 영역 */}
-          <div className="flex-[6]">
+          <div className="flex-[6] max-[767px]:hidden">
             <Image
               src="/images/dvrt_course_1.jpg"
               width={1300}
