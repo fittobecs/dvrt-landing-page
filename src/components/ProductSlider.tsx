@@ -8,7 +8,7 @@ const productsDesktop = [
     name: "얼티밋 샌드백 코어",
     description:
       "근육 발달, 전반적인 힘 강화 및 칼로리 소모에 탁월한 도구입니다.",
-    image: "/images/green_sandbag.png",
+    image: "/images/core_big.png",
     feature:
       "무게 조절 가능 범위: 2kg ~ 9kg \n 추천 : DVRT를 처음 배우는 사람, 홈트레이닝, PT샵, 헬스트레이너, \n 젊은 운동선수와 여성 등에게 적합합니다.",
     weights: "초급 약 4.5kg / 중급 약 7kg / 고급 약 9kg",
@@ -17,7 +17,7 @@ const productsDesktop = [
   {
     id: 2,
     name: "얼티밋 샌드백 파워",
-    image: "/images/power_sandbag.png",
+    image: "/images/power_big.png",
     description: "회전 운동 및 복잡한 움직임을 위한 최적의 도구입니다.",
     feature:
       "무게 조절 가능 범위: 9kg ~ 18kg \n추천: 강렬하고 강력한 운동을 원하는 분들, 로테이션 훈련과 복잡한 움직임 훈련이 필요한 \n젊은 운동선수와 부트캠프형 운동을 원하는 분들에게 적합합니다.",
@@ -27,7 +27,7 @@ const productsDesktop = [
   {
     id: 3,
     name: "얼티밋 샌드백 포스",
-    image: "/images/orange_sandbag.png",
+    image: "/images/force_big.png",
     description:
       "어린 운동선수, 초보자, 그리고 집에서 부담 없이 가볍게 운동하고 싶은 분들에게 안성맞춤입니다.",
     feature:
@@ -38,7 +38,7 @@ const productsDesktop = [
   {
     id: 4,
     name: "얼티밋 샌드백 스트렝스",
-    image: "/images/blue_sandbag.png",
+    image: "/images/strength_big.png",
     description:
       "불안정한 트레이닝의 이점을 제공하며, 다양한 운동에 사용할 수 있는 유연성을 가지고 있습니다.",
     feature:
@@ -49,7 +49,7 @@ const productsDesktop = [
   {
     id: 5,
     name: "얼티밋 샌드백 벌리",
-    image: "/images/black_sandbag.png",
+    image: "/images/burly_big.png",
     description: "무게 조절이 가능한 프리미엄 샌드백입니다.",
     feature:
       "무게 조절 가능 범위: 36kg ~ 54kg \n추천: 중량을 최대로 높여서 강력한 운동을 원하는 사람, \n바벨 타입의 복잡한 리프트를 사용하여 무거운 리프팅 운동을 원하는 분들에게 적합합니다.",
@@ -73,7 +73,7 @@ const productsMobile = [
   },
   {
     id: 2,
-    name: "파워 샌드백",
+    name: "얼티밋 샌드백 파워",
     image: "/images/power_sandbag.png",
     description: "회전 운동 및 복잡한 움직임을 위한 최적의 도구입니다.",
     feature:
@@ -94,7 +94,7 @@ const productsMobile = [
   },
   {
     id: 4,
-    name: "스트렝스 샌드백",
+    name: "얼티밋 샌드백 스트렝스",
     image: "/images/blue_sandbag.png",
     description:
       "불안정한 트레이닝의 이점을 제공하며, 다양한 운동에 사용할 수 있는 유연성을 가지고 있습니다.",
@@ -105,7 +105,7 @@ const productsMobile = [
   },
   {
     id: 5,
-    name: "벌리 샌드백",
+    name: "얼티밋 샌드백 벌리",
     image: "/images/black_sandbag.png",
     description: "무게 조절이 가능한 프리미엄 샌드백입니다.",
     feature:

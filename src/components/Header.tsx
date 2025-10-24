@@ -92,7 +92,7 @@ const Header: React.FC = () => {
               <li key={item.text}>
                 <Link
                   href={item.url}
-                  className="text-foreground hover:text-primary block"
+                  className="text-white hover:text-primary block"
                   onClick={toggleMenu}
                 >
                   {item.text}

@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import React from "react"
 
 const FMSInfo2: React.FC = () => {
@@ -47,13 +46,15 @@ const FMSInfo2: React.FC = () => {
             className="flex flex-col items-center relative"
             style={{ backgroundColor: "rgb(225, 225, 225)" }}
           >
-            <Image
-              src="/images/explain_dvrt_1.jpg"
-              alt="Course 1"
-              className="mb-4 md:h-[12rem] md:max-h-[186px] object-fill"
-              width={653}
-              height={368}
-            />
+            <div className="w-full aspect-video mb-4">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/Kb2SmxHVOk8"
+                title="DVRT L2"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
             <h2 className="text-xl font-bold text-center">DVRT L2</h2>
             <div className="p-4">
               <p className="mt-2">
