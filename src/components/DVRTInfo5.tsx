@@ -23,7 +23,7 @@ const DVRTInfo5: React.FC = () => {
               DVRT RESTORATION
             </h2>
             <p className="text-left text-lg md:text-xl font-semibold text-gray-800 mb-4 leading-tight">
-              신체 기능 회복 및 재활 프로그램. <br />전 연령에게 부상 부위와
+              신체 기능 회복 및 재활 프로그램 <br />전 연령에게 부상 부위와
               정도에 따라
               <br />
               맞춤 적용 가능한 무게 활용 재활, 교정 강의

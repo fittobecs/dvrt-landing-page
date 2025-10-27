@@ -24,7 +24,7 @@ const DVRTInfo4: React.FC = () => {
               DVRT L2
             </h2>
             <p className="text-left text-lg md:text-xl font-semibold text-gray-800 mb-4 leading-tight">
-              L1의 심화 강의로 움직임 고도화 프로그램.
+              L1의 심화 강의로 움직임 고도화 프로그램
               <br /> 근육 증가와 신체의 균형 잡힌 강화를 주며, <br />
               불균형을 잡고 몸의 밸런스와 근력을 함께 향상
             </p>
