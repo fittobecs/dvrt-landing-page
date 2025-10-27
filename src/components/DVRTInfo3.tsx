@@ -26,7 +26,7 @@ const DVRTInfo3: React.FC = () => {
               DVRT의 가장 기본적인 프로그램 <br />
               불안정성 학습에 필요한 얼티밋 샌드백으로
               <br />
-              근력 증가와 동작 퀄리티를 효율적으로 향상.
+              근력 증가와 동작 퀄리티를 효율적으로 향상
             </p>
             <ul className="text-left text-lg text-gray-500 leading-loose list-disc list-inside">
               <li>힌지, 프레스, 런지, 스쿼트, 크로스 등 핵심 패턴</li>

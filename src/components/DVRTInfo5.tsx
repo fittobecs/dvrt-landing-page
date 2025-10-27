@@ -26,7 +26,7 @@ const DVRTInfo5: React.FC = () => {
               신체 기능 회복 및 재활 프로그램. <br />전 연령에게 부상 부위와
               정도에 따라
               <br />
-              맞춤 적용 가능한 무게 활용 재활, 교정 강의.
+              맞춤 적용 가능한 무게 활용 재활, 교정 강의
             </p>
             <ul className="text-left  text-gray-500 leading-loose list-disc list-inside">
               <li>움직임 패턴 교정 리커버리 중심의 강의</li>
