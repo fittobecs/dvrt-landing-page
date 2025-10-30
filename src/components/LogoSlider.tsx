@@ -56,7 +56,7 @@ const LogoSlider: React.FC = () => {
 
         .animate-slide {
           display: flex;
-          animation: slide 25s linear infinite; /* 데스크톱: 25초 */
+          animation: slide 40s linear infinite; /* 데스크톱: 25초 */
           will-change: transform; /* 애니메이션 성능 최적화 */
         }
 

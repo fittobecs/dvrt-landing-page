@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* 오버레이 텍스트 */}
-      <div className="absolute left-1 md:left-11 flex flex-col justify-center items-center text-center px-4">
+      <div className="absolute left-1 md:left-11 flex flex-col justify-center items-left text-center px-4">
         <div className="relative w-24 h-10 md:w-[330px] md:h-[150px]">
           <Image
             src="/images/dvrt-logo.png"
@@ -27,11 +27,10 @@ const Hero: React.FC = () => {
             className=""
           />
         </div>
-        <p className="text-base md:text-2xl text-white drop-shadow-lg">
-          샌드백 펑셔널 트레이닝 시스템{" "}
-          <span className="max-[767px]:hidden">DVRT</span>
+        <p className="text-sm sm:text-base md:text-2xl text-white drop-shadow-lg text-left">
+          샌드백 펑셔널 트레이닝 시스템 <span>DVRT</span>
         </p>
-        <p className="max-[767px]:hidden text-base md:text-2xl text-white drop-shadow-lg">
+        <p className="text-sm sm:text-base md:text-2xl text-white drop-shadow-lg">
           (Dynamic Variable Resistance Training)
         </p>
       </div>
