@@ -8,7 +8,7 @@ const DVRTInfo6: React.FC = () => {
       id="products"
       className="w-full py-10 flex justify-center items-center"
     >
-      <div className="w-[80%] max-w-[1200px] flex flex-col justify-center items-center text-center">
+      <div className="w-[90%] md:w-[80%] max-w-[1200px] flex flex-col justify-center items-center text-center">
         <p className="font-semibold">*DVRT 온라인 강좌 오픈 예정</p>
         <div className="w-[70%] mt-4 border-4 border-black rounded-lg"></div>
         <Image
@@ -21,7 +21,7 @@ const DVRTInfo6: React.FC = () => {
         <h2 className="mt-8 text-3xl font-bold text-gray-800 mb-4 leading-tight">
           얼티밋 샌드백
         </h2>
-        <div className="py-2 mb-2 w-[80%]">
+        <div className="py-2 mb-2 w-[90%] md:w-[80%]">
           <p className="text-xl mb:text-2xl text-gray-700 text-center">
             수많은 툴 중에서도 시스템 개발자인 조쉬 헨킨이 시스템 개발과 동시에
             개선을 계속한 얼티밋 샌드백(USB)은 DVRT의 컨셉을 적용하기 위해 가장

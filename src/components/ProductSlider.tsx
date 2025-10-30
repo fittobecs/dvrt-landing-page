@@ -156,7 +156,7 @@ const ProductSlider = () => {
   }
 
   return (
-    <div className="max-w-6xl mx-auto p-4">
+    <div className="max-w-6xl mx-auto md:p-4">
       <div className="relative md:w-[850px]">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           {/* 이미지 영역: 고정 크기 */}
