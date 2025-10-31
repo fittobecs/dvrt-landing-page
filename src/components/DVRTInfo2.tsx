@@ -55,7 +55,7 @@ const FMSInfo2: React.FC = () => {
             </div>
             <h2 className="text-xl font-bold text-center">DVRT L2</h2>
             <div className="p-4">
-              <p className="mt-2">대상 : DVRT 레벨 1을 수료한 상급 트레이너</p>
+              <p className="mt-2">대상 : DVRT 레벨 1을 수료한 트레이너</p>
               <p className="mt-7">
                 도구 : 하중있는 얼티밋 샌드백 스트렝스 및 벌리, 케틀벨/밴드 등
               </p>

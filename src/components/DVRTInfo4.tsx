@@ -56,7 +56,7 @@ const DVRTInfo4: React.FC = () => {
 
           <div className="py-2 mb-8">
             <h3 className="mb-6">
-              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+              <span className="bg-[#e2363e] text-white px-2 py-2 rounded-md text-base font-bold">
                 기능적 움직임 심화
               </span>
             </h3>
@@ -67,7 +67,7 @@ const DVRTInfo4: React.FC = () => {
           </div>
           <div className="py-2 mb-8">
             <h3 className="mb-6">
-              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+              <span className="bg-[#e2363e] text-white px-2 py-2 rounded-md text-base font-bold">
                 멀티플래너 움직임 훈련
               </span>
             </h3>
@@ -78,7 +78,7 @@ const DVRTInfo4: React.FC = () => {
           </div>
           <div className="py-2 mb-8">
             <h3 className="mb-6">
-              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+              <span className="bg-[#e2363e] text-white px-2 py-2 rounded-md text-base font-bold">
                 파워 및 로코모션 훈련
               </span>
             </h3>

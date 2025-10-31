@@ -65,7 +65,7 @@ const DVRTInfo5: React.FC = () => {
 
           <div className="py-2 mb-8">
             <h3 className="mb-6">
-              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+              <span className="bg-[#e2363e] text-white px-2 py-2 rounded-md text-base font-bold">
                 움직임 효율성 강조
               </span>
             </h3>
@@ -76,7 +76,7 @@ const DVRTInfo5: React.FC = () => {
           </div>
           <div className="py-2 mb-8">
             <h3 className="mb-6">
-              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+              <span className="bg-[#e2363e] text-white px-2 py-2 rounded-md text-base font-bold">
                 점진적 과부하의 다각화
               </span>
             </h3>
@@ -88,7 +88,7 @@ const DVRTInfo5: React.FC = () => {
           </div>
           <div className="py-2 mb-8">
             <h3 className="mb-6">
-              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+              <span className="bg-[#e2363e] text-white px-2 py-2 rounded-md text-base font-bold">
                 코어 강성 및 안정성 중시
               </span>
             </h3>

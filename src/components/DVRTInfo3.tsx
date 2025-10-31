@@ -66,7 +66,7 @@ const DVRTInfo3: React.FC = () => {
 
           <div className="py-2 mb-8">
             <h3 className="mb-6">
-              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+              <span className="bg-[#e2363e] text-white px-2 py-2 rounded-md text-base font-bold">
                 기초 움직임 패턴 숙달
               </span>
             </h3>
@@ -77,7 +77,7 @@ const DVRTInfo3: React.FC = () => {
           </div>
           <div className="py-2 mb-8">
             <h3 className="mb-6">
-              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+              <span className="bg-[#e2363e] text-white px-2 py-2 rounded-md text-base font-bold">
                 안정성 및 가동성 기반 다지기
               </span>
             </h3>
@@ -88,7 +88,7 @@ const DVRTInfo3: React.FC = () => {
           </div>
           <div className="py-2 mb-8">
             <h3 className="mb-6">
-              <span className="bg-[rgb(88,88,88)] text-white px-2 py-2 rounded-md text-base font-bold">
+              <span className="bg-[#e2363e] text-white px-2 py-2 rounded-md text-base font-bold">
                 얼티밋 샌드백 활용의 기본
               </span>
             </h3>
