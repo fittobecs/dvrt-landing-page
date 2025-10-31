@@ -36,10 +36,12 @@ const DBRTInfo1: React.FC = () => {
               </span>
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              얼티밋 샌드백이라는 독특한 부하를 사용하여 부하 포지션, 신체
-              포지션, 부하 자체 등 DVRT는 특유의 안정성 변수를 다루는 것을 통해
+              얼티밋 샌드백이라는 독특한 부하를 사용하여
+              <br />
+              <br /> 부하 포지션, 신체 포지션, 부하 자체 등<br /> DVRT는 특유의
+              안정성 변수를 다루는 것을 통해
+              <br />
               <span className="font-bold">
-                {" "}
                 효과적으로 동작의 퀄리티를 향상시키는 시스템의 기본 원칙
               </span>
               을 배울 수 있습니다.

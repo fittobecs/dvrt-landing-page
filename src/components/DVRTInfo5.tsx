@@ -19,7 +19,7 @@ const DVRTInfo5: React.FC = () => {
           </div>
           {/* 텍스트 영역 */}
           <div className="flex-[4] text-center mr-8 pl-5">
-            <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6 leading-tight">
+            <h2 className="text-2xl md:text-4xl font-bold text-[#e2363e] mb-6 leading-tight">
               DVRT RESTORATION
             </h2>
             <p className="text-left text-lg md:text-xl font-semibold text-gray-800 mb-4 leading-tight">

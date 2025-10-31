@@ -33,10 +33,8 @@ const FMSInfo2: React.FC = () => {
             </div>
             <h2 className="text-xl font-bold text-center">DVRT L1</h2>
             <div className="p-4">
-              <p className="mt-2">
-                대상: 트레이너, 스트렝스 코치(ACE, NASM CPT CEU)
-              </p>
-              <p className="mt-2">
+              <p className="mt-2">대상: 트레이너, 스트렝스 코치</p>
+              <p className="mt-7">
                 도구 : 불안정성 학습에 필요한 얼티밋 샌드백 파워 및 스트렝스
               </p>
             </div>
@@ -57,10 +55,8 @@ const FMSInfo2: React.FC = () => {
             </div>
             <h2 className="text-xl font-bold text-center">DVRT L2</h2>
             <div className="p-4">
-              <p className="mt-2">
-                대상 : DVRT 레벨 1을 수료한 상급 트레이너(ACE/NASM CPT CEU)
-              </p>
-              <p className="mt-2">
+              <p className="mt-2">대상 : DVRT 레벨 1을 수료한 상급 트레이너</p>
+              <p className="mt-7">
                 도구 : 하중있는 얼티밋 샌드백 스트렝스 및 벌리, 케틀벨/밴드 등
               </p>
             </div>
@@ -82,7 +78,7 @@ const FMSInfo2: React.FC = () => {
             <h2 className="text-xl font-bold text-center">DVRT RESTORATION</h2>
             <div className="p-4">
               <p className="mt-2">대상 : 재활 및 교정 트레이너, 물리치료사</p>
-              <p className="mt-8">
+              <p className="mt-7">
                 도구 : 가볍지만 자각을 유도하는데 도움이 되는 얼티밋 샌드백 코어
               </p>
             </div>

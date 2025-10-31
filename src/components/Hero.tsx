@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           src="/images/dvrt_main_no.png"
           fill
           alt="picture of fms-academy-header"
-          className="object-cotain" // 또는 object-contain
+          className="" // 또는 object-contain
         />
       </div>
 
