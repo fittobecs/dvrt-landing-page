@@ -101,11 +101,21 @@ const DVRTInfo5: React.FC = () => {
         <div className="mt-20 flex justify-center">
           {/* 신청 버튼 */}
           <a
-            href="https://www.fittobe.ac/course/course_list.jsp?cid=117226&"
+            href="https://www.fittobe.ac/course/course_list.jsp?cid=120245"
             target="_blank"
             className="text-black font-semibold border-4 border-gray-800 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
           >
-            오프라인 일정 확인하기
+            온라인 교육 바로가기
+          </a>
+        </div>
+        <div className="mt-8 flex justify-center">
+          {/* 신청 버튼 */}
+          <a
+            href="https://www.fittobe.ac/course/course_list.jsp?cid=117226"
+            target="_blank"
+            className="text-black font-semibold border-4 border-gray-800 hover:bg-gray-300 px-8 py-3 rounded-full transition-colors"
+          >
+            오프라인 교육 바로가기
           </a>
         </div>
       </div>
